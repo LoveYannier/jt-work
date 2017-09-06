@@ -1,0 +1,8 @@
+127.0.0.1 - - [07/Nov/2016:20:26:35 +0800] "GET /index.jsp HTTP/1.0" 200 52 http-bio-8023-exec-1 669
+127.0.0.1 - - [07/Nov/2016:20:26:35 +0800] "GET /favicon.ico HTTP/1.0" 404 973 http-bio-8023-exec-2 195
+127.0.0.1 - - [07/Nov/2016:20:26:35 +0800] "GET /favicon.ico HTTP/1.0" 404 973 http-bio-8023-exec-3 57
+127.0.0.1 - - [07/Nov/2016:20:28:03 +0800] "GET /web/itemcat/all?callback=category.getDataService HTTP/1.0" 200 29600 http-bio-8023-exec-4 14156
+127.0.0.1 - - [07/Nov/2016:20:28:11 +0800] "GET /web/itemcat/all?callback=category.getDataService HTTP/1.0" 200 29600 http-bio-8023-exec-5 7658
+127.0.0.1 - - [07/Nov/2016:20:28:11 +0800] "GET /favicon.ico HTTP/1.0" 404 973 http-bio-8023-exec-6 62
+127.0.0.1 - - [07/Nov/2016:20:30:58 +0800] "GET /web/query/item562379 HTTP/1.0" 404 991 http-bio-8023-exec-7 66
+127.0.0.1 - - [07/Nov/2016:20:30:59 +0800] "GET /web/query/itemdesc562379 HTTP/1.0" 404 999 http-bio-8023-exec-8 68

@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+ <head>
+ </head>
+ <body>
+	<script type="text/javascript">
+		function test(data){
+			alert(data.key);
+		}
+		
+		
+		function fn (data){
+			alert(data.k);
+		}
+		
+		eval("fn({\"k\":\"v\"});");
+		//fn(s);
+	</script>
+	<!-- js把src链接返回值，作为js对象 -->
+	<script type="text/javascript" src="http://manage.jt.com/test.json"></script>
+ </body>
+</html>
