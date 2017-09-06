@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jt.cart.mapper.CartMapper"> 
+	<!--我的购物车 按修改时间排序 -->
+	<select id="queryListByUserId" parameterType="long" resultType="Cart">
+		select * from tb_cart where user_id = #{userId} order by updated desc
+	</select>
+	
+	<!-- 按照userId 和 itemId 修改 -->
+	<update id="updateByUserIdItemId" parameterType="map">
+		update tb_cart set num = #{num} where user_id =#{userid} and item_id = #{itemId}
+ 	</update>
+</mapper>
